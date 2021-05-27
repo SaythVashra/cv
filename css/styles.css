@@ -1,21 +1,84 @@
+/************************TAG SELECTORS**************************/
+
 body{
-    background-color: #d2e3f5;
+    background-color: #d1e2f4;
+    margin: 0;
     text-align: center;
-    color: #2b4f60;
+}
+
+p{
+    color: #15536c;
+    margin-bottom: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1{
-    color: #0061a8;
+    display: inline-block;
+    margin: 50px 50px 0px 0px;
+    font-size: 5.5rem;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #588ba9;
 }
 
-h3{
-    color: #2978b5;
+h2{
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #386b90;
 }
 
 hr{
-    border-color: white;
+    border-color: grey;
     border-style: dotted none none;
     border-width: 10px;
     width: 5%;
     margin: 50px auto;
 }
+
+/************************CLASS SELECTORS**************************/
+
+.top-container{
+    /*text-align: left;*/
+    margin: 100px auto;
+    background-color: #d1e2f4;
+}
+
+.profile-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #d1e2f4;
+}
+
+.original-songs-container{
+    margin: 0;
+    background-color: #364048;
+}
+
+.original-songs-header{
+    color: whitesmoke;
+    margin-bottom: 60px;
+}
+
+.pfp{
+    float: left;
+    margin: 20px 60px 0px 10px;
+    width: 25rem;
+}
+
+.div-transition{
+    background-color: #364048;
+    width: 100%;
+}
+
+.soundcloud{
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+
