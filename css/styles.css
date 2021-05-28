@@ -1,29 +1,19 @@
 /************************TAG SELECTORS**************************/
 
 body{
-    background-color: #d1e2f4;
     margin: 0;
     text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    font-family: 'Nunito', sans-serif;
 }
 
 p{
     color: #15536c;
     margin-bottom: 0;
-    font-family: 'Nunito', sans-serif;
 }
 
 h1{
-    display: inline-block;
-    margin: 50px 50px 0px 0px;
-    font-size: 5.5rem;
     font-family: 'Julius Sans One', sans-serif;
-    color: #588ba9;
-}
-
-h2{
-    font-size: 2.5rem;
-    font-family: 'Nunito', sans-serif;
-    color: #386b90;
 }
 
 hr{
@@ -34,34 +24,100 @@ hr{
     margin: 50px auto;
 }
 
-/************************CLASS SELECTORS**************************/
+/************************TOP CONTAINER**************************/
 
 .top-container{
-    /*text-align: left;*/
-    margin: 100px auto;
-    background-color: #d1e2f4;
-}
-
-.profile-container{
-    width: 80%;
-    margin: 0 auto;
-    background-color: #d1e2f4;
-}
-
-.original-songs-container{
+    background-color: #d2e3f5;
     margin: 0;
-    background-color: #364048;
+    display: flex;
 }
 
-.original-songs-header{
-    color: whitesmoke;
-    margin-bottom: 60px;
+.pfp-div{
+    background-color: #d1e2f4;
+    flex: 40%;
+    margin: 0 auto;
 }
 
 .pfp{
-    float: left;
-    margin: 20px 60px 0px 10px;
+    position: relative;
+    left: 16px;
+    margin: 100px auto 0;
     width: 25rem;
+}
+
+.profile-description-container{
+    background-color: #d1e2f4;
+    flex: 60%;
+}
+
+.profile-description-h1{
+    display: inline-block;
+    font-size: 5.5rem;
+    color: #588ba9;
+    margin: 100px auto 0;
+    width: 90%;
+}
+
+.profile-description-h2{
+    display: inline-block;
+    width: 80%;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #363f49;
+}
+
+.profile-description-text{
+    display: inline-block;
+    margin: 80px auto 60px;
+    width: 90%;
+}
+
+@media screen and (max-width: 600px){
+
+    .top-container{
+        display: block;
+    }
+
+    .pfp-div{
+        flex: none;
+    }
+
+    .profile-description-container{
+        text-align: center;
+        flex: none;
+    }
+
+    .profile-description-h1{
+        margin: 150px auto 0px;
+    }
+
+    .profile-description-h2{
+        margin: 50px auto auto;
+        width: 90%;
+    }
+
+    .profile-description-text{
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+}
+
+/************************ORIGINAL SONGS CONTAINER**************************/
+
+.original-songs-container{
+    background-color: #364048;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+.original-songs-header{
+    display: inline-block;
+    font-size: 5.5rem;
+    color: whitesmoke;
+    margin: 0 auto 0;
+    padding: 120px 0;
 }
 
 .div-transition{
@@ -82,3 +138,60 @@ hr{
     padding-bottom: 60px;
 }
 
+.soundlcoud-iframe{
+    width: 60%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media screen and (max-width: 600px){
+
+    .original-songs-header{
+        font-size: 3rem;
+        width: 90%;
+    }
+
+    .soundlcoud-iframe{
+        width: 90%;
+    }
+
+}
+
+/************************BOTTOM CONTAINER**************************/
+
+.bottom-container{
+    background-color:#2a2a2e;
+}
+
+.bottom-header{
+    display: inline-block;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin: 0 auto 0;
+    padding: 60px 0;
+}
+
+.contacts-container{
+    display: inline-block;
+    display: flex;
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+
+.contact-icon-div{
+    flex: 25%;
+}
+.contact-icon{
+    display: inline-block;
+    background-color: #2a2a2e;
+    width: 40px;
+}
+
+@media screen and (max-width: 600px){
+
+    .contacts-container{
+        width: 75%;
+    }
+
+}
