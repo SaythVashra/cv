@@ -73,7 +73,7 @@ hr{
     width: 90%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-aspect-ratio: 7/4){
 
     .top-container{
         display: block;
@@ -143,7 +143,7 @@ hr{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-aspect-ratio: 7/4){
 
     .original-songs-header{
         font-size: 3rem;
@@ -188,7 +188,7 @@ hr{
     width: 40px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-aspect-ratio: 7/4){
 
     .contacts-container{
         width: 75%;
